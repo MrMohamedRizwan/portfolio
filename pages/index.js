@@ -6,6 +6,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 import Icon from "../components/Icon";
 // Icons
+
 import Html from "../components/icons/Html";
 import cpp from "../components/icons/c++"
 import C from "../components/icons/c";
@@ -623,7 +624,7 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                  Hello! I'm Rizwan, and I'm a developer. I've been involved in competitive programming, and I used to develop websites and train ML models.
+                  Hello! I&apos;m Rizwan, and I&apos;m a developer. I&apos;ve been involved in competitive programming, and I used to develop websites and train ML models.
                   </p>
                   {/* <p className="text-lg">
                     After building my first website aged thirteen, I knew I
@@ -1444,7 +1445,13 @@ export default function Home({ publications }) {
             {/* <BlogList publications={publications} /> */}
             <br></br>
             <div  style={ {display:'block',margin:'auto',color: '#8386D0',height:'250px',width:'250px',overflow:'hidden' }}>
-            <img src="\qrCertificates.png"></img>
+            {/* <img src="\qrCertificates.png"></img> */}
+            <Image 
+            src="/qrCertificates.png"
+            width="990"
+            height="990"
+          alt={`user interface`}
+            />
             
             
             </div>

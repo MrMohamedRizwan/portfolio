@@ -11,7 +11,7 @@ export default function Degree(){
         <h6 className="mb-0 text-sm font-semibold font-body">
           {/* {formattedDate} */}
         </h6>
-        <p className="mb-0">Currently pursuing my Bachelor's degree in Electronics and communication Engineering at Sri Eshwar College of Engineering</p>
+        <p className="mb-0">Currently pursuing my Bachelor&apos;s degree in Electronics and communication Engineering at Sri Eshwar College of Engineering</p>
         <p className="btn-xs btn-brand self-start mt-3">CGPA 8.5 </p>
       </div>
       <div >
