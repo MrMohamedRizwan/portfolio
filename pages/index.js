@@ -345,7 +345,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:mrrizwan2207@gmail.com`}
                     className="text-lg btn-brand btn-lg group"
                   >
                     Hire me
@@ -515,7 +515,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:mrrizwan2207@gmail.com`}
                     className="btn-brand btn-md group"
                   >
                     Hire me 
