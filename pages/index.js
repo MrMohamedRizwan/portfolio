@@ -43,6 +43,10 @@ import BlogItem from "../components/blog/BlogItem";
 import { useTheme } from "next-themes";
 
 import { projects } from "../utils/constants";
+import { DEFAULT_SANS_SERIF_FONT } from "next/dist/shared/lib/constants";
+import Degree from "../components/blog/degree";
+import Degree2 from "../components/blog/degree2";
+import Degree3 from "../components/blog/degree3";
 
 const getDimensions = (ele) => {
   const { height } = ele.getBoundingClientRect();
@@ -667,13 +671,19 @@ export default function Home({ publications }) {
             ref={blogRef}
           >
              {/* Blog header  */}
-             <h2 className="text-5xl">Education</h2> 
+             <h2 className="text-5xl">Education</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
+            <div className="grid grid-flow-row grid-rows-1 gap-4 grid-col-1 lg:grid-cols-2">
 
+            <Degree/>
+            <Degree2/>
+            <Degree3/>
+            
+            </div>
             {/* <BlogList publications={publications} /> */}
             
-
-            {/* {projects.map(function (project, i) {
+{/* 
+            {projects.map(function (project, i) {
                 return <ProjectCard project={project} key={i} />;
               })} */}
           </section>
