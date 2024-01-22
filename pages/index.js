@@ -36,7 +36,7 @@ import LinkedInProfile from "../components/icons/LinkedInProfile";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
-import BlogList from "../components/blog/BlogList";
+// import BlogList from "../components/blog/BlogList";
 import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
@@ -221,7 +221,7 @@ export default function Home({ publications }) {
   return (
     <div className="bg-white dark:bg-darker transition-all duration-150 ease-in-out">
       <div
-        className={`relative w-full dark:bg-dark/20 bg-light bg-opacity-10 overflow-auto min-h-screen transition-all duration-150 ease-in-out ${
+        className={`relative w-full bg-dark bg-opacity-10 overflow-auto min-h-screen transition-all duration-150 ease-in-out ${
           navbarOpen ? "overflow-hidden" : "overflow-auto"
         }`}
       >
@@ -229,7 +229,7 @@ export default function Home({ publications }) {
           <title>Mohamed Rizwan Portfolio</title>
           <meta
             name="description"
-            content="The portfolio of frontend developer and designer, Daniel Cranney"
+            content="The portfolio of frontend developer , Mohamed Rizwan"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -652,7 +652,7 @@ export default function Home({ publications }) {
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
-                    alt={"Daniel Cranney headshot"}
+                    alt={"Mohamed Rizwan headshot"}
                   />
                 </div>
               </div>
@@ -670,7 +670,7 @@ export default function Home({ publications }) {
              <h2 className="text-5xl">Education</h2> 
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
-            <BlogList publications={publications} />
+            {/* <BlogList publications={publications} /> */}
             
 
             {/* {projects.map(function (project, i) {
@@ -1809,29 +1809,29 @@ export default function Home({ publications }) {
  * @param {Object} context
  * @returns props
  */
-export async function getServerSideProps(context) {
-  const res = await fetch("https://api.hashnode.com/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
-    },
-    body: JSON.stringify({
-      query:
-        'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
-    }),
-  });
-  const publications = await res.json();
+// export async function getServerSideProps(context) {
+//   const res = await fetch("https://api.hashnode.com/", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//       Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
+//     },
+//     body: JSON.stringify({
+//       query:
+//         'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+//     }),
+//   });
+//   const publications = await res.json();
 
-  if (!publications) {
-    return {
-      notFound: true,
-    };
-  }
+//   if (!publications) {
+//     return {
+//       notFound: true,
+//     };
+//   }
 
-  return {
-    props: {
-      publications,
-    },
-  };
-}
+//   return {
+//     props: {
+//       publications,
+//     },
+//   };
+// }
