@@ -10,8 +10,8 @@ const Figma = () => {
 				y1='11'
 				y2='11'
 				gradientUnits='userSpaceOnUse'>
-				<stop offset='.143' stop-color='#073042' />
-				<stop offset='1' stop-color='#073042' />
+				<stop offset='.143' stopColor='#073042' />
+				<stop offset='1' stopColor='#073042' />
 			</linearGradient>
 			<path
 				fill='url(#2BO4kwcwzS8K~3Z74MpJma)'
@@ -24,8 +24,8 @@ const Figma = () => {
 				y1='.205'
 				y2='17.039'
 				gradientUnits='userSpaceOnUse'>
-				<stop offset='0' stop-color='#3ddc84' />
-				<stop offset='.794' stop-color='#37c777' />
+				<stop offset='0' stopColor='#3ddc84' />
+				<stop offset='.794' stopColor='#37c777' />
 			</linearGradient>
 			<path
 				fill='url(#2BO4kwcwzS8K~3Z74MpJmb)'
@@ -38,8 +38,8 @@ const Figma = () => {
 				y1='1'
 				y2='15'
 				gradientUnits='userSpaceOnUse'>
-				<stop offset='.772' stop-opacity='0' />
-				<stop offset='.94' stop-opacity='.15' />
+				<stop offset='.772' stopOpacity='0' />
+				<stop offset='.94' stopOpacity='.15' />
 			</linearGradient>
 			<path
 				fill='url(#2BO4kwcwzS8K~3Z74MpJmc)'
@@ -72,8 +72,8 @@ const Figma = () => {
 				y1='7.763'
 				y2='43.842'
 				gradientUnits='userSpaceOnUse'>
-				<stop offset='.155' stop-color='#4f8fff' />
-				<stop offset='.925' stop-color='#3f73cc' />
+				<stop offset='.155' stopColor='#4f8fff' />
+				<stop offset='.925' stopColor='#3f73cc' />
 			</linearGradient>
 			<path
 				fill='url(#2BO4kwcwzS8K~3Z74MpJmd)'
@@ -86,8 +86,8 @@ const Figma = () => {
 				y1='18.365'
 				y2='46.43'
 				gradientUnits='userSpaceOnUse'>
-				<stop offset='.143' stop-color='#073042' />
-				<stop offset='1' stop-color='#073042' />
+				<stop offset='.143' stopColor='#073042' />
+				<stop offset='1' stopColor='#073042' />
 			</linearGradient>
 			<path
 				fill='url(#2BO4kwcwzS8K~3Z74MpJme)'
@@ -109,8 +109,8 @@ const Figma = () => {
 					y1='18.799'
 					y2='48.338'
 					gradientUnits='userSpaceOnUse'>
-					<stop offset='0' stop-color='#073042' />
-					<stop offset='.857' stop-color='#073042' />
+					<stop offset='0' stopColor='#073042' />
+					<stop offset='.857' stopColor='#073042' />
 				</linearGradient>
 				<path
 					fill='url(#2BO4kwcwzS8K~3Z74MpJmf)'
