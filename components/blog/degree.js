@@ -1,7 +1,7 @@
 export default function Degree(){
     return(
         <div
-      className="flex flex-col rounded-sm bg-white dark:bg-mid p-3.5 gap-y-3.5 group border-2 dark:border-mid dark:hover:border-brand hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
+      className="flex flex-col rounded-sm bg-white dark:bg-mid p-3.5 gap-y-3.5 group border-2 dark:border-mid  hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
       // onClick={redirectToHashnode}
     >
       
@@ -11,7 +11,7 @@ export default function Degree(){
         <h6 className="mb-0 text-sm font-semibold font-body">
           {/* {formattedDate} */}
         </h6>
-        <p className="mb-0">Currently pursuing my Bachelor&apos;s degree in Electronics and communication Engineering at Sri Eshwar College of Engineering</p>
+        <p className="mb-0">Electronics and communication Engineering <br/> Sri Eshwar College of Engineering</p>
         <p className="btn-xs btn-brand self-start mt-3">CGPA 8.5 </p>
       </div>
       <div >
@@ -25,7 +25,7 @@ export default function Degree(){
               viewBox="0 0 0 0"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
+              <path 
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"

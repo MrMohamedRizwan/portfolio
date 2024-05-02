@@ -1,7 +1,8 @@
 export default function Degree3(){
     return(
         <div
-      className="flex flex-col rounded-sm bg-white dark:bg-mid p-3.5 gap-y-3.5 group border-2 dark:border-mid dark:hover:border-brand hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
+        className="flex flex-col rounded-sm bg-white dark:bg-mid p-3.5 gap-y-3.5 group border-2 dark:border-mid  hover:border-brand border-transparent cursor-pointer transition-all duration-150 ease-in-out relative"
+
       // onClick={redirectToHashnode}
     >
       
@@ -11,7 +12,7 @@ export default function Degree3(){
         <h6 className="mb-0 text-sm font-semibold font-body">
           {/* {formattedDate} */}
         </h6>
-        <p className="mb-0">Completed my Secondary education at Nirmala Matha Convent Matric Hr. Sec. School Coimbatore</p>
+        <p className="mb-0">Nirmala Matha Convent Matric Hr. Sec. School Coimbatore</p>
         <p className="btn-xs btn-brand self-start mt-3">85.4 Percentage</p>
       </div>
       <div >
