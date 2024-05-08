@@ -50,6 +50,9 @@ import DynamoDb from "../components/icons/DynamoDB";
 import VsCode from "../components/icons/Vscode";
 import Docker from "../components/icons/Docker";
 import RabbitMQ from "../components/icons/RabbitMq";
+import SocketIO from "../components/icons/SocketIO";
+import S3 from "../components/icons/S3";
+import SES from "../components/icons/SES";
 
 const getDimensions = (ele) => {
 	const { height } = ele.getBoundingClientRect();
@@ -1068,178 +1071,35 @@ export default function Home({ publications }) {
 								title={"SolarCast"}
 								// status={"Join the Waitlist"}
 								// status={"Open Source"}
-								description={`This web application is used to predict the generation of electricity produced by renewable resources such as solar energy`}
+								description={`Chat application that enables users to chat with friends and colleagues`}
 								float={`right-0`}
 								flexDirection={`flex-col lg:flex-row`}
 								imgWidth={"1366"}
 								imgHeight={"666"}
-								imgSrc={"/projects/solarcast.png"}
-								liveLink={null}
-								repoLink={"https://github.com/MrMohamedRizwan"}
+								imgSrc={"/projects/ChatApp.png"}
+								repoLink={"https://github.com/MrMohamedRizwan/Chat-App"}
+								liveLink={"https://chat-app-q5tc.onrender.com/"}
 								stack={
 									<>
-										<Icon
-											IconType={Html}
-											title='HTML'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={Css}
-											title='Tailwind'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={python}
-											title='React'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={Javascript}
-											title='Next'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={knime}
-											title='Supabase'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-										<Icon
-											IconType={MongoDb}
-											title='Next'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-									</>
-								}
-							/>
-							{/* Project Two */}
-							<FeaturedProjectCard
-								title={"Lambda"}
-								// status={"V2 Just Launched"}
-								description={`An online Ecommerce website which was developed using MERN stack`}
-								float={`right-0`}
-								flexDirection={`flex-col lg:flex-row-reverse`}
-								imgWidth={"1366"}
-								imgHeight={"666"}
-								imgSrc={"/projects/lambda.png"}
-								repoLink={"https://github.com/MrMohamedRizwan"}
-								liveLink={null}
-								stack={
-									<>
-										<Icon
-											IconType={Html}
-											title='HTML'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={Css}
-											title='Tailwind'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={Javascript}
-											title='React'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
 										<Icon
 											IconType={ReactJs}
-											title='Next'
+											title='HTML'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={Express}
+											title='Tailwind'
 											columnSizing={"w-auto"}
 											width={"w-6"}
 											height={"h-6"}
@@ -1255,70 +1115,6 @@ export default function Home({ publications }) {
 
 										<Icon
 											IconType={MongoDb}
-											title='Next'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-									</>
-								}
-							/>
-							{/* Project Three */}
-							<FeaturedProjectCard
-								title={"Expense Tracker"}
-								// status={"Open Source"}
-								description={`This is a web application which is used to track all your expenses`}
-								float={`right-0`}
-								flexDirection={`flex-col lg:flex-row`}
-								imgWidth={"1366"}
-								imgHeight={"666"}
-								imgSrc={"/projects/expense.png"}
-								liveLink={null}
-								repoLink={"https://github.com/MrMohamedRizwan"}
-								stack={
-									<>
-										<Icon
-											IconType={Html}
-											title='HTML'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={Css}
-											title='Tailwind'
-											columnSizing={"w-auto"}
-											width={"w-6"}
-											height={"h-6"}
-											flexDirection={"flex-row"}
-											padding={"p-0"}
-											titleMargins={"my-0 ml-1"}
-											titleSize={"text-sm"}
-											marginBottom={"mb-4"}
-											marginRight={"mr-3"}
-											textTransform={"uppercase"}
-											fixedHeight={"h-auto"}
-										/>
-
-										<Icon
-											IconType={ReactJs}
 											title='React'
 											columnSizing={"w-auto"}
 											width={"w-6"}
@@ -1348,8 +1144,230 @@ export default function Home({ publications }) {
 											textTransform={"uppercase"}
 											fixedHeight={"h-auto"}
 										/>
+
+										<Icon
+											IconType={SocketIO}
+											title='Supabase'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+									</>
+								}
+							/>
+							{/* Project Two */}
+							<FeaturedProjectCard
+								title={"Lambda"}
+								// status={"V2 Just Launched"}
+								description={`An online E-commerce platform facilitating the trading of courses, providing a diverse array of learning opportunities..`}
+								float={`right-0`}
+								flexDirection={`flex-col lg:flex-row-reverse`}
+								imgWidth={"1366"}
+								imgHeight={"666"}
+								imgSrc={"/projects/lambda.png"}
+								repoLink={"https://github.com/MrMohamedRizwan/Lambda-"}
+								liveLink={`https://lambdabackend.onrender.com/api-docs/`}
+								stack={
+									<>
+										<Icon
+											IconType={NextJs}
+											title='HTML'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={NodeJs}
+											title='Tailwind'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
 										<Icon
 											IconType={Express}
+											title='React'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={MongoDb}
+											title='Next'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={Tailwind}
+											title='Next'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+										<Icon
+											IconType={S3}
+											title='Next'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+										<Icon
+											IconType={SES}
+											title='Next'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+									</>
+								}
+							/>
+							{/* Project Three */}
+							<FeaturedProjectCard
+								title={"Examatize"}
+								// status={"Open Source"}
+								description={`Web application allowing teachers to schedule questions for students, and conducts test with user verification`}
+								float={`right-0`}
+								flexDirection={`flex-col lg:flex-row`}
+								imgWidth={"1366"}
+								imgHeight={"666"}
+								imgSrc={"/projects/expense.png"}
+								liveLink={null}
+								repoLink={"https://github.com/MrMohamedRizwan/Examatize"}
+								stack={
+									<>
+										<Icon
+											IconType={Bootstrap}
+											title='HTML'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={NextJs}
+											title='Tailwind'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={MongoDb}
+											title='React'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+
+										<Icon
+											IconType={knime}
+											title='Next'
+											columnSizing={"w-auto"}
+											width={"w-6"}
+											height={"h-6"}
+											flexDirection={"flex-row"}
+											padding={"p-0"}
+											titleMargins={"my-0 ml-1"}
+											titleSize={"text-sm"}
+											marginBottom={"mb-4"}
+											marginRight={"mr-3"}
+											textTransform={"uppercase"}
+											fixedHeight={"h-auto"}
+										/>
+										<Icon
+											IconType={Tailwind}
 											title='Next'
 											columnSizing={"w-auto"}
 											width={"w-6"}
@@ -1367,7 +1385,7 @@ export default function Home({ publications }) {
 								}
 							/>
 							{/* Project Four */}
-							<FeaturedProjectCard
+							{/* <FeaturedProjectCard
 								title={"Report Ease"}
 								// status={"Open Source"}
 								description={`It is a user-friendly website which gets the reports (such as blood report) from the user and says those medical terms in a user friendly manner.`}
@@ -1445,7 +1463,7 @@ export default function Home({ publications }) {
 										/>
 									</>
 								}
-							/>
+							/> */}
 						</div>
 
 						{/* Other Projects header */}
