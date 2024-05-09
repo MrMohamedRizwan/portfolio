@@ -1172,7 +1172,7 @@ export default function Home({ publications }) {
 								flexDirection={`flex-col lg:flex-row-reverse`}
 								imgWidth={"1366"}
 								imgHeight={"666"}
-								imgSrc={"/projects/lambda.png"}
+								imgSrc={"/projects/Ecommerce.png"}
 								repoLink={"https://github.com/MrMohamedRizwan/Lambda-"}
 								liveLink={`https://lambdabackend.onrender.com/api-docs/`}
 								stack={
@@ -1298,7 +1298,7 @@ export default function Home({ publications }) {
 								flexDirection={`flex-col lg:flex-row`}
 								imgWidth={"1366"}
 								imgHeight={"666"}
-								imgSrc={"/projects/expense.png"}
+								imgSrc={"/projects/Examatize.png"}
 								liveLink={null}
 								repoLink={"https://github.com/MrMohamedRizwan/Examatize"}
 								stack={
@@ -1470,7 +1470,7 @@ export default function Home({ publications }) {
 						<h2 className='text-4xl text-center'>Other Projects</h2>
 						<hr className='bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0'></hr>
 						<p className='mb-16 text-lg text-center'>
-							Check out some of the projects I&apos;ve been a part of...
+							Check out some of my projects...
 						</p>
 
 						{/* Other Projects Container */}
