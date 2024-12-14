@@ -236,7 +236,7 @@ export default function Home({ publications }) {
 					<title>Mohamed Rizwan Portfolio</title>
 					<meta
 						name='description'
-						content='The portfolio of frontend developer , Mohamed Rizwan'
+						content='The portfolio of Full Stack Developer , Mohamed Rizwan'
 					/>
 					<link rel='icon' href='/favicon.ico' />
 				</Head>
